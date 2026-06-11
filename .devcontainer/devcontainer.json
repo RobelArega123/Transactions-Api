@@ -1,0 +1,9 @@
+{
+  "name": "Transactions API",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/app",
+  "shutdownAction": "stopCompose",
+  "forwardPorts": [3000, 27017],
+  "remoteUser": "root"
+}
